@@ -24,7 +24,8 @@ let package = Package(
             dependencies: [
                 .product(name: "Vapor", package: "vapor"),
                 .product(name: "Fluent", package: "fluent"),
-                .product(name: "SQLKit", package: "sql-kit")
+                .product(name: "SQLKit", package: "sql-kit"),
+								.product(name: "FluentSQLiteDriver", package: "fluent-sqlite-driver")
             ],
             path: "Sources"),
         .testTarget(

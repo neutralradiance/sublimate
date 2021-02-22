@@ -1,7 +1,6 @@
 import class Vapor.Request
 import struct Vapor.Abort
 import FluentKit
-import FluentSQL
 import SQLKit
 
 /// Sublimate utility object wrapping a SQLKit `SQLRawBuilder` object.
